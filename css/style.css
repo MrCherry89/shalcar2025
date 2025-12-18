@@ -734,6 +734,9 @@ a:focus {
   width: 100%;
   margin: 0 auto;
 }
+.bottom-section .request form button:hover {
+  background: #0e5466;
+}
 @media (max-width: 1600px) {
   .bottom-section .request form button {
     font-size: 32px;
@@ -1121,7 +1124,7 @@ a:focus {
 .div {
   height: 1500px;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .div {
     height: 70vw;
   }
@@ -1177,7 +1180,7 @@ a:focus {
   border-radius: 30px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.38);
 }
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .tour .tour-info {
     height: 50vw;
   }
@@ -1194,7 +1197,7 @@ a:focus {
   border-radius: 30px;
   margin-bottom: 100px;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   #map {
     height: 50vw;
     margin-bottom: 80px;
@@ -1216,7 +1219,7 @@ a:focus {
   border-radius: 30px;
   height: 1210px;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .swiper-slide {
     height: 60vw;
   }

@@ -308,6 +308,9 @@
         max-width: 520px;
         width: 100%;
         margin: 0 auto;
+        &:hover{
+          background: lighten(#0a3e4b, 6%);
+        }
         @media(max-width: 1600px){
           font-size: 32px;
         }
@@ -608,7 +611,7 @@
 
 .div{
   height: 1500px;
-  @media(max-width: 1600px){
+  @media(max-width: 1700px){
     height: 70vw;
    }
    @media(max-width: 767px){
@@ -653,7 +656,7 @@
     background: white;
     border-radius: 30px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.38);
-    @media(max-width: 1600px){
+    @media(max-width: 1700px){
       height: 50vw;
      }
      @media(max-width: 767px){
@@ -667,7 +670,7 @@
   width: 100%;
   border-radius: 30px;
   margin-bottom: 100px;
-  @media(max-width: 1600px){
+  @media(max-width: 1700px){
     height: 50vw;
     margin-bottom: 80px;
    }
@@ -685,7 +688,7 @@
   display: flex;
   border-radius: 30px;
   height: 1210px;
-  @media(max-width: 1600px){
+  @media(max-width: 1700px){
     height: 60vw;
    }
    @media(max-width: 767px){
